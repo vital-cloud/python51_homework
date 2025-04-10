@@ -1,0 +1,94 @@
+* { margin: 0; }
+
+.football { margin: 20px 0; }
+
+.group {                /* Блок с футболом */
+    width: 190px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: 1px solid;
+    font-family: "Verdana", Arial, sans-serif;
+    font-weight: 200;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.5);
+}
+
+.group h2 { 
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+
+.picures {              /* Блок Рисунок № */
+    width: 180px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.group li { list-style-image: url(markers/football.png); } /* иконки */
+
+#pol { list-style-image: url(markers/flags/poland.png); }  /* иконки */
+#rus { list-style-image: url(markers/flags/russia.png); }
+#cze { list-style-image: url(markers/flags/czech.png); }
+#gre { list-style-image: url(markers/flags/greece.png); }
+
+#ger { list-style-image: url(markers/flags/germany.png); }
+#net { list-style-image: url(markers/flags/netherlands.png); }
+#por { list-style-image: url(markers/flags/portugal.png); }
+#den { list-style-image: url(markers/flags/denmark.png); }
+
+#spa { list-style-image: url(markers/flags/spain.png); }
+#ita { list-style-image: url(markers/flags/italy.png); }
+#cro { list-style-image: url(markers/flags/croatia.png); }
+#ire { list-style-image: url(markers/flags/ireland.png); }
+
+#ukr { list-style-image: url(markers/flags/ukraine.png); }
+#eng { list-style-image: url(markers/flags/england.png); }
+#fra { list-style-image: url(markers/flags/france.png); }
+#swe { list-style-image: url(markers/flags/sweden.png); }
+
+.elexir {                   /* Блок Элексир */
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0 10px 5px 10px;
+    border: 1px solid;
+    font-family: "Verdana", Arial, sans-serif;
+    font-weight: 200;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.5);
+}
+
+.elexir h1, h2 {            /* Центрирование */
+    text-align: center;
+    margin: 20px auto;
+}
+
+.green { color: green; }    /* Цвет текста */
+
+.left { text-align: left; } /* Центрирование */
+
+#red {             
+    color: red;
+    text-transform: uppercase;
+}
+
+.map {
+    width: 800px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: 1px solid;
+    font-family: "Verdana", Arial, sans-serif;
+    font-weight: 200;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.5);
+}
+
+.map h1, hr {
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 40px;
+    margin-bottom: 20px
+}
+
+.noicon { list-style-type: none; }
+.arrow { list-style-image: url(markers/arrow.gif); }
